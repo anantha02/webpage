@@ -1,0 +1,102 @@
+/* apply a background color to the body */
+body {
+  background-color: #d8e3e7;
+}
+
+/* set the font family and size for the entire document */
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* style the h1 element */
+h1 {
+  color: #364f6b;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* style the label element */
+label {
+  display: block;
+  font-weight: bold;
+  color: #3f6b6b;
+  margin-top: 1rem;
+}
+
+/* style the input elements */
+input[type="text"], input[type="password"], select {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #3f6b6b;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+/* style the select element */
+select {
+  width: 100%;
+}
+
+/* style the submit button */
+input[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #3f6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* style the error messages */
+span[id$="_err"] {
+  display: block;
+  color: #c44569;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* style the form container */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+/* style the form fieldset */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* style the form legend */
+legend {
+  font-size: 1.2rem;
+  color: #3f6b6b;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #3f6b6b;
+}
+
+/* remove bullets from unordered list */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* center form boxes */
+.field-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
